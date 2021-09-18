@@ -1,0 +1,34 @@
+/* ----------Section features------------ */
+.features {
+  display: flex;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__cart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 25px 0;
+    background: #f5f4fa;
+    border-radius: 4px;
+  }
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-color-text;
+  }
+}
+/* --------End.Section features---------- */
